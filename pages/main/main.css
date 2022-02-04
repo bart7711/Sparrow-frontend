@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOmCnqEu92Fr1Mu5mxP.ttf) format('truetype');
+  }
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/roboto/v29/KFOlCnqEu92Fr1MmWUlfABc9.ttf) format('truetype');
+  }
+  .tw-block-parent {
+    width: 500px;
+    font: 14px/1.4 Roboto, Helvetica, Arial, Tahoma, sans-serif;
+    font-weight: 300;
+    color: #292F33;
+  }
+  .Avatar {
+    width: 32px;
+    height: 32px;
+    background: url('https://image.similarpng.com/very-thumbnail/2021/06/Green-check-mark-icon-on-transparent-background-PNG.png');
+    background-size: 32px;
+  }
+  .timeline-TweetList-tweet {
+    border-top: 1px solid rgba(15, 70, 100, 0.12);
+  }
+  .timeline-TweetList-tweet:first-of-type {
+    border-top: none;
+  }
+  .timeline-Tweet {
+    position: relative;
+    padding: 10px;
+  }
+  .timeline-Tweet a,
+  .timeline-Tweet .link {
+    color: #3b94d9;
+    text-decoration: none;
+    cursor: pointer; 
+    outline: 0;
+  }
+  .timeline-Tweet a:hover,
+  .timeline-Tweet .link:hover {
+    cursor: pointer; 
+    color: #55acee;
+  }
+  .timeline-Tweet-trash {
+    position: relative;
+    left: 440px;
+    top: 10px;
+    right: 10px;
+  }
+  .timeline-Tweet-author {
+    position: relative;
+    margin-bottom: 2px;
+    padding-left: 40px;
+  }
+  .timeline-Tweet-text {
+    margin-left: 40px;
+    margin-bottom: 12px;
+    word-wrap: break-word;
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+  }
+  .timeline-Tweet-metadata {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+  }
+  .timeline-Tweet-hashtags{
+    position: absolute;
+    bottom: 0px;
+    margin-left: 40px;
+  }
+  .timeline-Tweet-actions {
+    margin: 0 0 0 40px;
+    padding: 0;
+    list-style: none;
+    border: none;
+  }
+  .timeline-Tweet-action {
+    display: inline-block;
+    font-size: 17px;
+  }
+  .timeline-Tweet-action + .timeline-Tweet-action {
+    margin-left: 20px;
+  }
+  .timeline-Tweet-timestamp {
+    font-size: 12px;
+    line-height: 18px;
+    color: #e1e8ed;
+    transition: color 0.2s;
+  }
+  .timeline-Tweet:hover {
+    background-color: rgba(160, 200, 220, 0.12);
+  }
+  .timeline-Tweet:hover .timeline-Tweet-trash .Icon {
+    background-image: url('https://cdn4.iconfinder.com/data/icons/social-messaging-ui-coloricon-1/21/52-512.png');
+  }
+  .timeline-Tweet:hover .timeline-Tweet-action .Icon {
+    opacity: 1;
+  }
+  .timeline-Tweet:hover .timeline-Tweet-timestamp {
+    color: #667580;
+  }
+  .TweetAuthor {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+  }
+  .TweetAuthor-name {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18px;
+  }
+  .TweetAuthor-screenName {
+    margin-left: 5px;
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: 300;
+    color: #8899A6;
+  }
+  .Icon {
+    display: inline-block;
+    width: 2em;
+    height: 3em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    vertical-align: text-bottom;
+    opacity: 0.6;
+    transition: opacity 0.2s, background-image 0.2s;
+  }
+  .Icon:hover {
+    opacity: 1;
+  }
+  .message-container{
+    display: flex; 
+    flex-direction: column;
+  }
+  .message-form{
+    position: relative;
+    margin-right: 20rem;
+  }
+  .button{background-color: transparent;}
